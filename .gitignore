@@ -1,0 +1,32 @@
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual environment folders ---
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# --- Environment & secrets ---
+*.env
+.env.*
+secrets.json
+
+# --- Logs & databases ---
+*.log
+*.sqlite3
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- IDE / Editor settings ---
+.vscode/
+.idea/
+
+# --- OS specific ---
+.DS_Store
+Thumbs.db
