@@ -1,0 +1,19 @@
+Create a virtual env. Install packages: pip install -r requirements.txt.
+
+Run training: python train_model.py.
+
+This will download MNIST, train a CNN, and save mnist_cnn.h5.
+
+Run GUI: python gui_predict.py.
+
+Draw a digit using the mouse.
+
+Press Predict to see the model output.
+
+Notes and improvements
+
+Use more epochs or data augmentation for better accuracy.
+
+To support webcam input, capture a frame with OpenCV, convert to grayscale, resize to 28x28, then predict.
+
+You can export the model to SavedModel format or convert to TensorFlow Lite for mobile.
